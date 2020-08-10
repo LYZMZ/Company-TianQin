@@ -1,0 +1,327 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+/* 修饰主体 */
+.body{
+    margin: auto;
+    width: 1440px;
+    height: 1665px;
+    background-color: #f5f8f9;
+
+}
+/* 修饰头部 */
+.header{
+    overflow: hidden;
+    width: 1440px;
+    height: 92px;
+    background-color: #ffffff;
+}
+/* 修饰内容A */
+.contentA{
+    overflow: hidden;
+    width: 1132px;
+    height: 292px;
+    margin: auto;
+    background-color: #f5f8f9;
+}
+/* 修饰内容A处轮播图 */
+#contentA-left{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 537px;
+    height: 292px;
+    margin-right: 20px;
+    background-color: blue;
+    list-style: none;
+}
+/* 修饰内容A处导航栏 */
+.contentA-right{
+    display: inline-block;
+    overflow: hidden;
+    width: 569px;
+    height: 292px;
+    background-color:lightsteelblue;
+}
+/* 修饰内容B折线统计图盒子 */
+.contentB{
+    overflow: hidden;
+    margin: auto;
+    margin-top: 17px;
+    height: 350px;
+    width: 1132px;
+    background-color: white;
+}
+/* 修饰内容C处的盒子*/
+.contentC{
+    overflow: hidden;
+    width: 1132px;
+    height: 385px;
+    margin-top: 22px;
+    margin: auto;
+    background-color:#f5f8f9;
+}
+/* 修饰底部盒子 */
+.footer{
+    overflow: hidden;
+    width: 1440px;
+    height: 295px;
+    margin: auto;
+    margin-top: 42px;
+    background-color: #202124;
+}
+/* 修饰内容C处的饼状图盒子 */
+.contentC-left{
+    overflow: hidden;
+    display: inline-block;
+    width: 554px;
+    height: 350px;
+    margin-right: 14px; 
+    background-color:white;
+}
+/* 修饰内容C处树状图盒子 */
+.contentC-right{
+    overflow: hidden;
+    display: inline-block;
+    width: 558px;
+    height: 350px;
+    background-color:white; 
+}
+/* 轮播图的张图片向右浮动 */
+#imglist li{
+    /* 图片向右浮动 */
+    float: left;
+}
+/* 修饰轮播图导航键 */
+#iconlist{
+    list-style: none;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+/* 修饰导航键内的数字 */
+#iconlist li{ 
+    float: left;
+    width: 25px;
+    height: 25px;
+    border: 1px solid blue;
+    border-radius: 13px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#imglist{
+    height:292px ;
+    width: 2685px;
+}
+/* 修饰页面最底部的盒子 */
+.footer-box{
+    overflow: hidden;
+    margin-top: 82px;
+    margin-bottom: 106px;
+    margin-left: 150px;
+    margin-right: 330px;
+    width: 962px;
+    height: 109px;
+    background-color:(32,33,36);
+}
+/* 修饰页面最底部的logo */
+.footer-logo{
+    float: left;
+    width: 105px;
+    height: 30;
+}
+/* 修饰最底部字体说明 */
+.foot-dl{
+ float: left; 
+ margin-left: 50px;
+ color: white;
+ 
+}
+.foot-dt{
+margin-bottom: 10px;
+padding-left: 50px;
+font-size: 10px;
+}
+  /* 修饰头部下导航盒子 */
+  .header-bottom-box01 {
+    overflow: hidden;
+    width: 1440px;
+    height: 121px;
+  background-color:(245,248,249);
+}
+/* 导航盒子内01盒 */
+.header-bottom-box02{
+    overflow: hidden;
+    width: 1146px;
+    height: 51px;
+    background-color: (245,248,249);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+a{
+    text-decoration: none;
+}
+.header-bottem-logo {
+    overflow: hidden;
+    width: 277px;
+    height: 55px;
+}
+
+dt {
+    margin-bottom: 5px;
+}
+
+.header-bottom-nav-li{
+    float: right;
+    list-style: none;
+}
+/* 修饰导航栏 */
+.header-bottom-nav{
+    overflow: hidden;
+    float: right;
+}
+/* 修饰导航字体 */
+.header-bottom-nav ul li a{
+    font-size: 13px;
+    height: 23px;
+    padding: 36px;
+    color: black;
+}
+/* 修饰导航字触发背景背景 */
+.header-bottom-nav ul li a:hover{
+    border-bottom: 5px solid (245,248,249);
+    color: skyblue;
+}
+
+
+/* 头部01盒子 */
+.header-box1{
+    overflow: hidden;
+    width: 1145px;
+    height: 49px;
+    margin-top: 27px;
+    margin-left: 148px;
+    margin-left: 148px;
+    background-color:white;
+}
+/* 设置头部logo盒子 */
+.header-logo{
+    overflow: hidden;
+    float: left;
+    width: 105px;
+    height: 32px;
+}
+/* 设置头部logout盒子 */
+.header-logout{
+    float: right;
+    width: 111px;
+    height: 39px;
+}
+/* 设置头部bell盒子 */
+.header-bell{
+    float: right;
+    overflow: hidden;
+    width: 34px;
+    height: 28px;
+    margin-right: 31px;
+    margin-top: 13px;
+}
+/* 设置头部设置按键盒子 */
+.settings{
+    overflow: hidden;
+    float: right;
+    width: 45px;
+    height: 36px;
+    margin-right: 31px;
+    margin-top: 13px;
+}
+
+/* 修饰内容a-右上 */
+.contentA-right-top {
+    overflow: hidden;
+    height: 107px;
+    width: 569px;
+    background-color:white;
+}
+/* 修饰内容右盒子logo */
+.contentA-right-logo{
+    overflow: hidden;
+    float: left;
+    width: 154px;
+    height: 24px;
+    margin-top: 37px;
+    margin-bottom: 31px;
+    margin-left: 22px;
+}
+/* 修饰内容a的view按键 */
+.view{
+    overflow: hidden;
+    float: right;
+    width: 94px;
+    height: 38px;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+/* 修饰内容a右-下 */
+.contentA-right-buttom{
+    overflow: hidden;
+    height: 183px;
+    width: 569px;
+    margin-top: 2px;
+    background-color:white;
+}
+/* a-右-01 */
+.c-r-b-box01{
+    overflow: hidden;
+    float: left;
+    width: 521px;
+    height: 17px;
+    margin-top: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:white;
+}
+.contentA-right-buttom .c-r-b-box01 span{
+    
+    margin-right: 45px;
+}
+.contentA-right-buttom .c-r-b-box02 span{
+    margin-right: 28px;
+}
+.contentA-right-buttom .c-r-b-box03 span{
+    margin-right: 28px;
+}
+.status{
+    margin-left: 189px;
+}
+/* a-右02 */
+.c-r-b-box02{
+    overflow: hidden;
+    width: 521px;
+    height: 33px;
+    margin-left: 20px;
+    margin-top: 70px;
+    background-color: white;
+}
+/* a-右03 */
+.c-r-b-box03{
+    overflow: hidden;
+    width: 521px;
+    height: 33px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: white;
+}
+.sovlved-01{
+    overflow: hidden;
+    float: right;
+}
+.sovlved-02{
+    overflow: hidden;
+    float: right;
+}
